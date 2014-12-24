@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -23,13 +23,13 @@
   "dependencies": {
     "colorful": "~2.1.0",
     "commander": "~2.5.1",
-    "gh-changelog": "~1.0.5",
+    "gh-changelog": "^1.0.5",
     "gulp": "~3.8.10",
     "gulp-jscs": "~1.3.1",
     "gulp-jshint": "~1.9.0",
     "gulp-less": "~2.0.1",
-    "gulp-reactify": "~1.0.1",
+    "gulp-reactify": "^1.0.1",
     "jshint-stylish": "~1.0.0",
-    "saucelabs-runner": "~2.0.11"
+    "saucelabs-runner": "^2.2.0"
   }
 }
