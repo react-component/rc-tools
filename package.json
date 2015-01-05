@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -30,6 +30,8 @@
     "gulp-less": "~2.0.1",
     "gulp-reactify": "^1.0.1",
     "jshint-stylish": "~1.0.0",
-    "saucelabs-runner": "^2.2.0"
+    "saucelabs-runner": "^2.2.0",
+    "through2": "~0.6.3",
+    "autoprefixer-core": "~4.0.2"
   }
 }
