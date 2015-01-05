@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -19,6 +19,9 @@
   "bin": {
     "rc-tools": "./bin/rc-tools.js",
     "rc-tools-run": "./bin/rc-tools-run.js"
+  },
+  "scripts": {
+    "publish": "git push origin"
   },
   "dependencies": {
     "colorful": "~2.1.0",
