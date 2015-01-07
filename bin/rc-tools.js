@@ -10,8 +10,16 @@ program
   .command('run [name]', 'run specified task')
   .parse(process.argv);
 
-var subCmd = program.args[0];
+// https://github.com/tj/commander.js/pull/260
+var proc;
+if (proc = program.runningCommand) {
+  proc.on('close', process.exit.bind(process));
+  proc.on('error', function () {
+    process.exit(1);
+  });
+}
 
+var subCmd = program.args[0];
 if (!subCmd || subCmd !== 'run') {
   program.help();
 }
