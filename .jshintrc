@@ -16,13 +16,7 @@
   "unused": true,
   "browser": true,
   "node": true,
-  "esnext": true,
-  "globals": {
-    "describe": false,
-    "expect": false,
-    "beforeEach": false,
-    "afterEach": false,
-    "modulex": false,
-    "it": false
-  }
+  "devel": true,
+  "mocha": true,
+  "esnext": true
 }
