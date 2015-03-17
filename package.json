@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "1.2.8",
+  "version": "2.0.0",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -40,6 +40,13 @@
     "jshint-stylish": "~1.0.0",
     "modulex-util": "^1.1.8",
     "saucelabs-runner": "^2.2.0",
-    "through2": "^0.6.3"
+    "through2": "^0.6.3",
+    "css-loader": "^0.9.1",
+    "file-loader": "^0.8.1",
+    "jsx-loader": "^0.12.2",
+    "style-loader": "^0.8.3",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.7.3",
+    "shelljs": "0.3.x"
   }
 }
