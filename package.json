@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -29,6 +29,8 @@
     "autoprefixer-core": "~4.0.2",
     "colorful": "~2.1.0",
     "commander": "~2.5.1",
+    "css-loader": "^0.9.1",
+    "file-loader": "^0.8.1",
     "fs-extra": "^0.16.3",
     "gh-history": "^1.0.0",
     "gulp": "^3.8.10",
@@ -38,15 +40,14 @@
     "gulp-reactify": "^1.0.1",
     "highlight.js": "^8.4.0",
     "jshint-stylish": "~1.0.0",
+    "json-loader": "^0.5.1",
+    "jsx-loader": "^0.12.2",
     "modulex-util": "^1.1.8",
     "saucelabs-runner": "^2.2.0",
-    "through2": "^0.6.3",
-    "css-loader": "^0.9.1",
-    "file-loader": "^0.8.1",
-    "jsx-loader": "^0.12.2",
+    "shelljs": "0.3.x",
     "style-loader": "^0.8.3",
+    "through2": "^0.6.3",
     "url-loader": "^0.5.5",
-    "webpack": "^1.7.3",
-    "shelljs": "0.3.x"
+    "webpack": "^1.7.3"
   }
 }
