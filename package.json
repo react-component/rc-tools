@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -37,7 +37,7 @@
     "gulp-jscs": "^1.3.1",
     "gulp-jshint": "^1.9.0",
     "gulp-less": "2.0.1",
-    "gulp-reactify": "^1.0.1",
+    "gulp-reactify": "3.x",
     "highlight.js": "^8.4.0",
     "jshint-stylish": "~1.0.0",
     "json-loader": "^0.5.1",
