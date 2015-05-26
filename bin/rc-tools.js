@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 require('colorful').colorful();
 
 var program = require('commander');
