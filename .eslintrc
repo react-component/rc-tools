@@ -9,7 +9,7 @@
     "jsx": true
   },
   "plugins": [
-    "eslint-plugin-react"
+    "react"
   ],
   "rules": {
     "block-scoped-var": [0],
