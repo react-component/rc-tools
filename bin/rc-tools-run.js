@@ -1,5 +1,3 @@
-#!/usr/bin/env node --harmony
-
 require('colorful').colorful();
 
 var program = require('commander');
