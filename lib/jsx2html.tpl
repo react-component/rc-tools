@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>{{pkgName}}-{{title}}</title>
   <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" type="text/css" rel="stylesheet"/>
   <style>
       .hljs {
@@ -178,7 +179,7 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
 </head>
 <body>
-<h1>{{title}}</h1>
+<h1>{{pkgName}}@{{pkgVersion}}</h1>
 <div id="__react-content"></div>
 <script src="{{common}}?nowrap"></script>
 <script src="{{app}}?nowrap"></script>
