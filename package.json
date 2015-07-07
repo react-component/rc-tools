@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "3.2.3",
+  "version": "3.2.4",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -44,7 +44,7 @@
     "gulp-less": "2.0.1",
     "highlight.js": "^8.4.0",
     "json-loader": "^0.5.1",
-    "match-require": "~1.0.2",
+    "match-require": "~1.1.0",
     "modulex-util": "^1.1.8",
     "saucelabs-runner": "^2.2.0",
     "shelljs": "0.3.x",
