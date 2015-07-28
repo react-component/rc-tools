@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "3.2.6",
+  "version": "3.3.0",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -23,7 +23,10 @@
     "rc-tools-run": "./bin/rc-tools-run.js"
   },
   "scripts": {
-    "publish": "git push origin"
+    "publish": "git push origin",
+    "precommit": "npm run checkDep && npm run lint",
+    "checkDep": "node scripts/checkDep",
+    "lint": "eslint --ext .js,.jsx lib"
   },
   "dependencies": {
     "autoprefixer-core": "~4.0.2",
@@ -41,11 +44,10 @@
     "glob": "~5.0.12",
     "gulp": "^3.8.10",
     "gulp-babel": "5.x",
+    "gulp-jsx2example": "~1.0.0",
     "gulp-less": "2.0.1",
-    "highlight.js": "^8.4.0",
     "json-loader": "^0.5.1",
-    "match-require": "~1.1.0",
-    "modulex-util": "^1.1.8",
+    "match-require": "~1.1.1",
     "saucelabs-runner": "^2.2.0",
     "shelljs": "0.3.x",
     "style-loader": "^0.8.3",
@@ -58,5 +60,12 @@
       "name": "yiminghe",
       "email": "yiminghe@gmail.com"
     }
+  ],
+  "devDependencies": {
+    "jshint": "~2.8.0",
+    "precommit-hook": "~1.0.7"
+  },
+  "precommit": [
+    "precommit"
   ]
 }
