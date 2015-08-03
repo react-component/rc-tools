@@ -23,9 +23,12 @@ offline tools for react component
 ## Usage
 
 ```
-$ rc-tools run lint: lint source within lib
-$ rc-tools run less: transform less files into css, support autoprefixer
-$ rc-tools run tag: git tag current version
-$ rc-tools run history: generate HISTORY.md
+$ rc-tools run lint: run lint
+$ rc-tools run pub: compile and npm publish
+$ rc-tools run gh-pages: push example to gh-pages
+$ rc-tools run start: start dev server
+$ rc-tools run karma: run karma tests
 $ rc-tools run saucelabs: run saucelabs tests
+$ rc-tools run browser-test: run browser-test in phantomjs
+$ rc-tools run browser-test-cover: run browser-test-cover in phantomjs
 ```
