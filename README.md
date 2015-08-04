@@ -23,7 +23,7 @@ offline tools for react component
 ## Usage
 
 ```
-$ rc-tools run lint: run lint
+$ rc-tools run lint: run lint by https://github.com/airbnb/javascript
 $ rc-tools run pub: compile and npm publish
 $ rc-tools run gh-pages: push example to gh-pages
 $ rc-tools run start: start dev server
