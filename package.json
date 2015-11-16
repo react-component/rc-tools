@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "4.2.7",
+  "version": "4.2.8",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -68,7 +68,7 @@
     "less-loader": "~2.2.0",
     "match-require": "~1.1.1",
     "mocha": "~2.2.5",
-    "mocha-phantomjs": "^3.6.0",
+    "mocha-phantomjs": "~4.0.1",
     "object-assign": "~4.0.1",
     "saucelabs-runner": "^2.2.0",
     "shelljs": "0.3.x",
