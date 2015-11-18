@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "4.3.0",
+  "version": "4.3.1",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -26,8 +26,7 @@
     "publish": "git push origin",
     "precommit": "npm run checkDep && npm run lint",
     "checkDep": "node scripts/checkDep",
-    "lint": "eslint --ext .js,.jsx lib",
-    "validate": "npm ls"
+    "lint": "eslint --ext .js,.jsx lib"
   },
   "dependencies": {
     "autoprefixer-core": "~4.0.2",
@@ -86,7 +85,7 @@
   ],
   "devDependencies": {
     "jshint": "~2.8.0",
-    "precommit-hook-eslint": "~3.0.0"
+    "pre-commit": "1.x"
   },
   "pre-commit": [
     "precommit"
