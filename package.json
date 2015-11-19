@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "4.3.3",
+  "version": "4.3.4",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -77,14 +77,7 @@
     "url-loader": "^0.5.5",
     "webpack": "^1.7.3"
   },
-  "maintainers": [
-    {
-      "name": "yiminghe",
-      "email": "yiminghe@gmail.com"
-    }
-  ],
   "devDependencies": {
-    "jshint": "~2.8.0",
     "pre-commit": "1.x"
   },
   "pre-commit": [
