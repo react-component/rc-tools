@@ -3,5 +3,9 @@
   "rules": {
     "id-length": [0],
     "react/no-multi-comp": [1]
+  },
+  "env": {
+    "node": true,
+    "mocha": true
   }
 }
