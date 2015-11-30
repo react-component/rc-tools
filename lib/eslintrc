@@ -1,6 +1,7 @@
 {
   "extends": "airbnb",
   "rules": {
-    "id-length": [0]
+    "id-length": [0],
+    "react/no-multi-comp": [1]
   }
 }
