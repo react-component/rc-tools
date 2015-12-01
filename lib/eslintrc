@@ -2,8 +2,7 @@
   "extends": "airbnb",
   "parser": "babel-eslint",
   "rules": {
-    "id-length": [0],
-    "react/no-multi-comp": [1]
+    "id-length": [0]
   },
   "env": {
     "node": true,
