@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "4.3.11",
+  "version": "4.4.0",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -44,7 +44,7 @@
     "eslint-plugin-react": "~3.10.0",
     "extract-text-webpack-plugin": "~0.8.2",
     "file-loader": "^0.8.1",
-    "fs-extra": "^0.16.3",
+    "fs-extra": "^0.16.5",
     "gh-history": "^1.0.0",
     "gh-pages": "^0.3.0",
     "glob": "~5.0.12",
@@ -70,7 +70,6 @@
     "mocha-phantomjs": "~4.0.1",
     "node-jscover-coveralls": "~2.0.7",
     "object-assign": "~4.0.1",
-    "saucelabs-runner": "^2.2.0",
     "shelljs": "0.3.x",
     "style-loader": "^0.8.3",
     "through2": "^0.6.3",
