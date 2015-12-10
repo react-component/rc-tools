@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "4.4.0",
+  "version": "4.4.1",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -66,6 +66,7 @@
     "less": "~2.5.1",
     "less-loader": "~2.2.0",
     "match-require": "~1.1.1",
+    "minimist": "^1.2.0",
     "mocha": "~2.2.5",
     "mocha-phantomjs": "~4.0.1",
     "node-jscover-coveralls": "~2.0.7",
