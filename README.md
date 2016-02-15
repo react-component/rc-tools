@@ -34,5 +34,5 @@ $ rc-tools run karma --single-run: run karma tests single run
 $ rc-tools run saucelabs: run saucelabs tests
 $ rc-tools run chrome-test: run browser-test in chrome
 $ rc-tools run test: run test in phantomjs
-$ rc-tools run cover: run test coverage in phantomjs
+$ rc-tools run coverage: run test coverage in phantomjs
 ```
