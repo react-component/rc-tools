@@ -10,7 +10,9 @@
     <script src="/{{es5Shim}}/es5-sham.js?nowrap"></script>
     <script src="/{{consolePolyfill}}/index.js?nowrap"></script>
     <link rel="stylesheet" type="text/css" href="/{{highlightJs}}/styles/github.css">
+    {{#if(common)}}
     <link rel="stylesheet" type="text/css" href="./common.css">
+    {{/if}}
     <link rel="stylesheet" type="text/css" href="./{{name}}.css">
     <style>
         .highlight {
