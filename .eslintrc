@@ -4,6 +4,10 @@
     "no-var": [
       0
     ],
+    "arrow-body-style":[0],
+    "strict": [
+      0
+    ],
     "no-console": [
       0
     ],
