@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "5.1.10",
+  "version": "5.2.0",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -59,7 +59,7 @@
     "highlight.js": "^8.9.1",
     "html5shiv": "3.x",
     "internal-ip": "^1.1.0",
-    "isparta-loader": "2.x",
+    "istanbul-instrumenter-loader": "^0.2.0",
     "json-loader": "^0.5.1",
     "karma": "~0.13.3",
     "karma-chrome-launcher": "~0.2.0",
