@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "5.3.7",
+  "version": "5.4.0",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -58,6 +58,7 @@
     "gulp-jsx2example": "1.x",
     "gulp-less": "3.x",
     "gulp-postcss": "^6.1.0",
+    "gulp-typescript": "~2.13.4",
     "highlight.js": "^8.9.1",
     "html5shiv": "3.x",
     "internal-ip": "^1.1.0",
@@ -86,6 +87,7 @@
     "less": "2.x",
     "less-loader": "2.x",
     "match-require": "1.x",
+    "merge2": "~1.0.2",
     "minimist": "1.x",
     "mocha": "2.x",
     "modulex-util": "^1.1.9",
@@ -96,6 +98,8 @@
     "shelljs": "0.3.x",
     "style-loader": "^0.8.3",
     "through2": "^0.6.5",
+    "ts-loader": "~0.8.2",
+    "typescript": "~1.8.10",
     "url-loader": "^0.5.5",
     "webpack": "^1.7.3",
     "xtemplate": "^4.4.2",
