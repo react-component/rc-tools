@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "5.4.3",
+  "version": "5.4.4",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -99,6 +99,7 @@
     "style-loader": "^0.8.3",
     "through2": "^0.6.5",
     "ts-loader": "~0.8.2",
+    "tslint": "~3.10.2",
     "typescript": "~1.8.10",
     "url-loader": "^0.5.5",
     "webpack": "^1.7.3",
