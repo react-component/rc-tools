@@ -86,6 +86,7 @@
     "koa-webpack-dev-middleware": "^1.1.0",
     "less": "2.x",
     "less-loader": "2.x",
+    "macaca-cli": "^1.0.22",
     "match-require": "1.x",
     "merge2": "~1.0.2",
     "minimist": "1.x",
