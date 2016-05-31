@@ -13,7 +13,9 @@
     <script src="/{{fastclick}}/lib/fastclick.js"></script>
     {{/if}}
     <link rel="stylesheet" type="text/css" href="/{{highlightJs}}/styles/github.css">
+    {{#if(hasCss)}}
     <link rel="stylesheet" type="text/css" href="./{{name}}.css">
+    {{/if}}
     <style>
         .highlight {
             background-color: transparent;
