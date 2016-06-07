@@ -8,10 +8,10 @@
     "indent": [true, "spaces"],
     "label-position": true,
     "label-undefined": true,
-    "max-line-length": [true, 80],
+    "max-line-length": [false],
     "no-arg": true,
     "no-bitwise": true,
-    "no-console": [true,
+    "no-console": [false,
       "log",
       "debug",
       "info",
@@ -50,8 +50,7 @@
       "check-branch",
       "check-decl",
       "check-operator",
-      "check-separator",
-      "check-type"
+      "check-separator"
     ],
     "quotemark": [ true, "single", "jsx-double" ]
   }
