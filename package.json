@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "5.5.9",
+  "version": "5.5.10",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -52,7 +52,7 @@
     "file-loader": "^0.8.1",
     "fs-extra": "^0.16.5",
     "gh-pages": "^0.3.0",
-    "glob": "5.x",
+    "glob": "~5.0.15",
     "gulp": "^3.8.10",
     "gulp-babel": "^6.1.2",
     "gulp-jsx2example": "1.x",
