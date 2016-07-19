@@ -24,6 +24,7 @@ offline tools for react component
 
 ```
 $ rc-tools run lint: run lint by https://github.com/airbnb/javascript
+$ rc-tools run lint --fix: run lint with autofix
 $ rc-tools run pub: compile and npm publish
 $ rc-tools run watch --out-dir=/xx: watch and compile to /xx, default to lib
 $ rc-tools run build: build examples
