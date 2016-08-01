@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "5.5.14",
+  "version": "5.6.0",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -35,6 +35,7 @@
     "babel-eslint": "^4.1.8",
     "babel-loader": "^6.2.2",
     "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-transform-runtime": "6.x",
     "babel-preset-es2015-ie": "6.x",
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
