@@ -9,7 +9,7 @@
     <script src="/{{es5Shim}}/es5-shim.js"></script>
     <script src="/{{es5Shim}}/es5-sham.js"></script>
     <script src="/{{consolePolyfill}}/index.js"></script>
-    <script src="//as.alipayobjects.com/g/component/modernizr/2.8.3/modernizr.js"></script>
+    <script src="/{{public}}/modernizr.js"></script>
     {{#if(fastclick)}}
     <script src="/{{fastclick}}/lib/fastclick.js"></script>
     {{/if}}
@@ -19,7 +19,7 @@
     {{/if}}
     <script>
     if(!window.Promise) {
-      document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
+      document.writeln('<script src="/{{es6Promise}}/dist/es6-promise.js"'+'>'+'<'+'/'+'script>');
     }
     </script>
     <style>
