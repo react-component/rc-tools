@@ -10,9 +10,7 @@
     <script src="/{{es5Shim}}/es5-sham.js"></script>
     <script src="/{{consolePolyfill}}/index.js"></script>
     <script src="/{{public}}/modernizr.js"></script>
-    {{#if(fastclick)}}
     <script src="/{{fastclick}}/lib/fastclick.js"></script>
-    {{/if}}
     <link rel="stylesheet" type="text/css" href="/{{highlightJs}}/styles/github.css">
     {{#if(hasCss)}}
     <link rel="stylesheet" type="text/css" href="./{{name}}.css">
@@ -54,9 +52,7 @@
   <h1>{{pkg.name}}@{{pkg.version}}</h1>
   <div id="__react-content"></div>
   {{{content}}}
-  {{#if(fastclick)}}
-    <script>FastClick.attach(document.body);</script>
-  {{/if}}
+  <script>FastClick.attach(document.body);</script>
   <script src="./{{name}}.js"></script>
 </body>
 </html>
