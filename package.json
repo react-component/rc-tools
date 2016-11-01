@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "5.7.11",
+  "version": "5.8.0",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -62,6 +62,7 @@
     "gulp-less": "3.x",
     "gulp-postcss": "^6.1.0",
     "gulp-typescript": "~3.0.2",
+    "gulp-watch": "^4.3.10",
     "highlight.js": "^8.9.1",
     "html5shiv": "3.x",
     "internal-ip": "^1.1.0",
