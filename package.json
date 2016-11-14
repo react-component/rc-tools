@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "5.8.11",
+  "version": "5.8.12",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -102,6 +102,7 @@
     "postcss-loader": "^0.8.1",
     "shelljs": "0.3.x",
     "style-loader": "^0.8.3",
+    "svg-sprite-loader": "^0.0.31",
     "through2": "^0.6.5",
     "ts-loader": "1.x",
     "tslint": "~3.15.1",
