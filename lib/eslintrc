@@ -2,6 +2,7 @@
   "extends": "airbnb",
   "parser": "babel-eslint",
   "rules": {
+    "strict":[0],
     "react/prefer-es6-class": [0],
     "react/jsx-no-bind": [0],
     "no-param-reassign": [0],
