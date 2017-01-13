@@ -10,6 +10,7 @@
     <script src="/{{es5Shim}}/es5-sham.js"></script>
     <script src="/{{consolePolyfill}}/index.js"></script>
     <script src="/{{public}}/modernizr.js"></script>
+    <script src="/{{public}}/qrcode.js"></script>
     <script src="/{{fastclick}}/lib/fastclick.js"></script>
     <link rel="stylesheet" type="text/css" href="/{{highlightJs}}/styles/github.css">
     {{#if(hasCss)}}
