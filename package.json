@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "5.11.1",
+  "version": "5.11.2",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "postinstall": "node lib/init.js",
-    "pub": "npm publish && git push origin",
+    "pub": "git push origin && npm publish",
     "precommit": "npm run checkDep && npm run lint",
     "checkDep": "node scripts/checkDep",
     "lint": "eslint --ext .js,.jsx lib"
