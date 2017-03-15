@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "5.11.2",
+  "version": "5.11.3",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -84,6 +84,7 @@
     "koa": "^1.1.2",
     "koa-body": "^1.4.0",
     "koa-favicon": "^1.2.0",
+    "koa-logger": "1.x",
     "koa-request": "~1.0.0",
     "koa-router": "3.x",
     "koa-serve-index": "^1.1.1",
