@@ -29,10 +29,10 @@ $ rc-tools run watch --out-dir=/xx: watch and compile to /xx, default to lib
 $ rc-tools run build: build examples
 $ rc-tools run gh-pages: push example to gh-pages
 $ rc-tools run start: start dev server
-$ rc-tools run karma: run karma tests
-$ rc-tools run karma --single-run: run karma tests single run
-$ rc-tools run saucelabs: run saucelabs tests
-$ rc-tools run chrome-test: run browser-test in chrome
-$ rc-tools run test: run test in phantomjs
-$ rc-tools run coverage: run test coverage in phantomjs
 ```
+
+## History
+
+### 6.0.0
+
+- move test to rc-test
