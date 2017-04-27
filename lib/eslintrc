@@ -10,6 +10,9 @@
     "id-length": [0],
     "indent": [2, 2, {"SwitchCase": 1}]
   },
+  "globals": {
+      "expect": true
+  },
   "env": {
     "node": true,
     "mocha": true
