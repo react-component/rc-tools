@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -81,11 +81,9 @@
     "match-require": "2.x",
     "merge2": "~1.0.2",
     "minimist": "1.x",
-    "mocha": "2.x",
     "modulex-util": "^1.1.9",
     "normalize.css": "^3.0.3",
     "object-assign": "4.x",
-    "phantomjs-prebuilt": "^2.1.4",
     "postcss-loader": "^0.8.1",
     "shelljs": "0.3.x",
     "style-loader": "^0.8.3",
