@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "6.1.0",
+  "version": "6.1.1",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -85,6 +85,7 @@
     "normalize.css": "^3.0.3",
     "object-assign": "4.x",
     "postcss-loader": "^1.2.2",
+    "progress-bar-webpack-plugin": "^1.9.3",
     "shelljs": "0.3.x",
     "style-loader": "^0.13.1",
     "svg-sprite-loader": "^0.3.0",
