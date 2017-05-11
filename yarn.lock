@@ -172,7 +172,7 @@ array-unique@^0.2.1:
   version "0.2.1"
   resolved "http://registry.npm.alibaba-inc.com/array-unique/download/array-unique-0.2.1.tgz#a1d97ccafcbc2625cc70fadceb36a50c58b01a53"
 
-arrify@^1.0.0:
+arrify@^1.0.0, arrify@^1.0.1:
   version "1.0.1"
   resolved "http://registry.npm.alibaba-inc.com/arrify/download/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
 
@@ -318,7 +318,7 @@ babel-core@^5.8.33:
     trim-right "^1.0.0"
     try-resolve "^1.0.0"
 
-babel-core@^6.0.2, babel-core@^6.24.1, babel-core@^6.5.2:
+babel-core@^6.0.0, babel-core@^6.0.2, babel-core@^6.24.1, babel-core@^6.5.2:
   version "6.24.1"
   resolved "http://registry.npm.alibaba-inc.com/babel-core/download/babel-core-6.24.1.tgz#8c428564dce1e1f41fb337ec34f4c3b022b5ad83"
   dependencies:
@@ -351,7 +351,7 @@ babel-eslint@^4.1.8:
     lodash.assign "^3.2.0"
     lodash.pick "^3.1.0"
 
-babel-generator@^6.24.1:
+babel-generator@^6.18.0, babel-generator@^6.24.1:
   version "6.24.1"
   resolved "http://registry.npm.alibaba-inc.com/babel-generator/download/babel-generator-6.24.1.tgz#e715f486c58ded25649d888944d52aa07c5d9497"
   dependencies:
@@ -490,6 +490,14 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
+babel-jest@^20.0.0:
+  version "20.0.0"
+  resolved "http://registry.npm.alibaba-inc.com/babel-jest/download/babel-jest-20.0.0.tgz#05ae371102ee8e30c9d61ffdf3f61c738a87741f"
+  dependencies:
+    babel-core "^6.0.0"
+    babel-plugin-istanbul "^4.0.0"
+    babel-preset-jest "^20.0.0"
+
 babel-loader@^6.2.2:
   version "6.4.1"
   resolved "http://registry.npm.alibaba-inc.com/babel-loader/download/babel-loader-6.4.1.tgz#0b34112d5b0748a8dcdbf51acf6f9bd42d50b8ca"
@@ -532,6 +540,18 @@ babel-plugin-eval@^1.0.1:
 babel-plugin-inline-environment-variables@^1.0.1:
   version "1.0.1"
   resolved "http://registry.npm.alibaba-inc.com/babel-plugin-inline-environment-variables/download/babel-plugin-inline-environment-variables-1.0.1.tgz#1f58ce91207ad6a826a8bf645fafe68ff5fe3ffe"
+
+babel-plugin-istanbul@^4.0.0:
+  version "4.1.3"
+  resolved "http://registry.npm.alibaba-inc.com/babel-plugin-istanbul/download/babel-plugin-istanbul-4.1.3.tgz#6ee6280410dcf59c7747518c3dfd98680958f102"
+  dependencies:
+    find-up "^2.1.0"
+    istanbul-lib-instrument "^1.7.1"
+    test-exclude "^4.1.0"
+
+babel-plugin-jest-hoist@^20.0.0:
+  version "20.0.0"
+  resolved "http://registry.npm.alibaba-inc.com/babel-plugin-jest-hoist/download/babel-plugin-jest-hoist-20.0.0.tgz#d2afe94fa6aea3b8bfa5d61d8028f633c898d86d"
 
 babel-plugin-jscript@^1.0.4:
   version "1.0.4"
@@ -985,6 +1005,12 @@ babel-preset-flow@^6.23.0:
   dependencies:
     babel-plugin-transform-flow-strip-types "^6.22.0"
 
+babel-preset-jest@^20.0.0:
+  version "20.0.0"
+  resolved "http://registry.npm.alibaba-inc.com/babel-preset-jest/download/babel-preset-jest-20.0.0.tgz#16b992c9351c2525e87a19fd36ba14e47df51bad"
+  dependencies:
+    babel-plugin-jest-hoist "^20.0.0"
+
 babel-preset-react@^6.3.13:
   version "6.24.1"
   resolved "http://registry.npm.alibaba-inc.com/babel-preset-react/download/babel-preset-react-6.24.1.tgz#ba69dfaea45fc3ec639b6a4ecea6e17702c91380"
@@ -1050,7 +1076,7 @@ babel-runtime@^6.18.0, babel-runtime@^6.22.0:
     core-js "^2.4.0"
     regenerator-runtime "^0.10.0"
 
-babel-template@^6.24.1, babel-template@^6.5.0:
+babel-template@^6.16.0, babel-template@^6.24.1, babel-template@^6.5.0:
   version "6.24.1"
   resolved "http://registry.npm.alibaba-inc.com/babel-template/download/babel-template-6.24.1.tgz#04ae514f1f93b3a2537f2a0f60a5a45fb8308333"
   dependencies:
@@ -1060,7 +1086,7 @@ babel-template@^6.24.1, babel-template@^6.5.0:
     babylon "^6.11.0"
     lodash "^4.2.0"
 
-babel-traverse@^6.24.1:
+babel-traverse@^6.18.0, babel-traverse@^6.24.1:
   version "6.24.1"
   resolved "http://registry.npm.alibaba-inc.com/babel-traverse/download/babel-traverse-6.24.1.tgz#ab36673fd356f9a0948659e7b338d5feadb31695"
   dependencies:
@@ -1074,7 +1100,7 @@ babel-traverse@^6.24.1:
     invariant "^2.2.0"
     lodash "^4.2.0"
 
-babel-types@^6.19.0, babel-types@^6.24.1:
+babel-types@^6.18.0, babel-types@^6.19.0, babel-types@^6.24.1:
   version "6.24.1"
   resolved "http://registry.npm.alibaba-inc.com/babel-types/download/babel-types-6.24.1.tgz#a136879dc15b3606bda0d90c1fc74304c2ff0975"
   dependencies:
@@ -1087,7 +1113,7 @@ babylon@^5.8.38:
   version "5.8.38"
   resolved "http://registry.npm.alibaba-inc.com/babylon/download/babylon-5.8.38.tgz#ec9b120b11bf6ccd4173a18bf217e60b79859ffd"
 
-babylon@^6.11.0, babylon@^6.15.0:
+babylon@^6.11.0, babylon@^6.13.0, babylon@^6.15.0:
   version "6.17.0"
   resolved "http://registry.npm.alibaba-inc.com/babylon/download/babylon-6.17.0.tgz#37da948878488b9c4e3c4038893fa3314b3fc932"
 
@@ -2402,6 +2428,12 @@ find-up@^1.0.0:
     path-exists "^2.0.0"
     pinkie-promise "^2.0.0"
 
+find-up@^2.1.0:
+  version "2.1.0"
+  resolved "http://registry.npm.alibaba-inc.com/find-up/download/find-up-2.1.0.tgz#45d1b7e506c717ddd482775a2b77920a3c0c57a7"
+  dependencies:
+    locate-path "^2.0.0"
+
 findup-sync@^0.4.2:
   version "0.4.3"
   resolved "http://registry.npm.alibaba-inc.com/findup-sync/download/findup-sync-0.4.3.tgz#40043929e7bc60adf0b7f4827c4c6e75a0deca12"
@@ -3411,6 +3443,22 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "http://registry.npm.alibaba-inc.com/isstream/download/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
+istanbul-lib-coverage@^1.1.0:
+  version "1.1.0"
+  resolved "http://registry.npm.alibaba-inc.com/istanbul-lib-coverage/download/istanbul-lib-coverage-1.1.0.tgz#caca19decaef3525b5d6331d701f3f3b7ad48528"
+
+istanbul-lib-instrument@^1.7.1:
+  version "1.7.1"
+  resolved "http://registry.npm.alibaba-inc.com/istanbul-lib-instrument/download/istanbul-lib-instrument-1.7.1.tgz#169e31bc62c778851a99439dd99c3cc12184d360"
+  dependencies:
+    babel-generator "^6.18.0"
+    babel-template "^6.16.0"
+    babel-traverse "^6.18.0"
+    babel-types "^6.18.0"
+    babylon "^6.13.0"
+    istanbul-lib-coverage "^1.1.0"
+    semver "^5.3.0"
+
 jodid25519@^1.0.0:
   version "1.0.2"
   resolved "http://registry.npm.alibaba-inc.com/jodid25519/download/jodid25519-1.0.2.tgz#06d4912255093419477d425633606e0e90782967"
@@ -3719,6 +3767,13 @@ loader-utils@^1.0.2:
     big.js "^3.1.3"
     emojis-list "^2.0.0"
     json5 "^0.5.0"
+
+locate-path@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.alibaba-inc.com/locate-path/download/locate-path-2.0.0.tgz#2b568b265eec944c6d9c0de9c3dbbbca0354cd8e"
+  dependencies:
+    p-locate "^2.0.0"
+    path-exists "^3.0.0"
 
 lodash._arraycopy@^3.0.0:
   version "3.0.0"
@@ -4175,7 +4230,7 @@ methods@^1.0.1:
   version "1.1.2"
   resolved "http://registry.npm.alibaba-inc.com/methods/download/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
 
-micromatch@^2.1.5, micromatch@^2.3.7:
+micromatch@^2.1.5, micromatch@^2.3.11, micromatch@^2.3.7:
   version "2.3.11"
   resolved "http://registry.npm.alibaba-inc.com/micromatch/download/micromatch-2.3.11.tgz#86677c97d1720b363431d04d0d15293bd38c1565"
   dependencies:
@@ -4563,6 +4618,16 @@ output-file-sync@^1.1.0:
     mkdirp "^0.5.1"
     object-assign "^4.1.0"
 
+p-limit@^1.1.0:
+  version "1.1.0"
+  resolved "http://registry.npm.alibaba-inc.com/p-limit/download/p-limit-1.1.0.tgz#b07ff2d9a5d88bec806035895a2bab66a27988bc"
+
+p-locate@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.alibaba-inc.com/p-locate/download/p-locate-2.0.0.tgz#20a0103b222a70c8fd39cc2e580680f3dde5ec43"
+  dependencies:
+    p-limit "^1.1.0"
+
 package-json@^4.0.0:
   version "4.0.1"
   resolved "http://registry.npm.alibaba-inc.com/package-json/download/package-json-4.0.1.tgz#8869a0401253661c4c4ca3da6c2121ed555f5eed"
@@ -4638,6 +4703,10 @@ path-exists@^2.0.0:
   resolved "http://registry.npm.alibaba-inc.com/path-exists/download/path-exists-2.1.0.tgz#0feb6c64f0fc518d9a754dd5efb62c7022761f4b"
   dependencies:
     pinkie-promise "^2.0.0"
+
+path-exists@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.npm.alibaba-inc.com/path-exists/download/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
 
 path-is-absolute@1.0.1, path-is-absolute@^1.0.0, path-is-absolute@^1.0.1:
   version "1.0.1"
@@ -5827,6 +5896,16 @@ term-size@^0.1.0:
   resolved "http://registry.npm.alibaba-inc.com/term-size/download/term-size-0.1.1.tgz#87360b96396cab5760963714cda0d0cbeecad9ca"
   dependencies:
     execa "^0.4.0"
+
+test-exclude@^4.1.0:
+  version "4.1.0"
+  resolved "http://registry.npm.alibaba-inc.com/test-exclude/download/test-exclude-4.1.0.tgz#04ca70b7390dd38c98d4a003a173806ca7991c91"
+  dependencies:
+    arrify "^1.0.1"
+    micromatch "^2.3.11"
+    object-assign "^4.1.0"
+    read-pkg-up "^1.0.1"
+    require-main-filename "^1.0.1"
 
 text-table@~0.2.0:
   version "0.2.0"
