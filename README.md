@@ -31,6 +31,19 @@ $ rc-tools run gh-pages: push example to gh-pages
 $ rc-tools run start: start dev server
 ```
 
+
+package.json demo
+
+```js
+({
+  config: {
+    entry:{}, // webpack entry for build dist umd
+    port: 8000, // dev server port
+    output:{}, // webpack output for build dist umd
+  }
+})
+```
+
 ## History
 
 ### 6.0.0
