@@ -25,3 +25,4 @@ spm_modules
 .cache
 dist
 tests/*.css
+yarn.lock

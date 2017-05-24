@@ -24,7 +24,7 @@
   },
   "scripts": {
     "postinstall": "node lib/init.js",
-    "pub": "git push origin && npm publish",
+    "pub": "rm -rf yarn.lock && git push origin && npm publish",
     "precommit": "npm run checkDep && npm run lint",
     "checkDep": "node scripts/checkDep",
     "lint": "eslint --ext .js,.jsx lib"
