@@ -57,7 +57,7 @@
     "fs-extra": "^0.16.5",
     "gh-pages": "^0.3.0",
     "glob": "~5.0.15",
-    "gulp": "^3.8.10",
+    "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-jsx2example": "^1.2.4",
     "gulp-less": "3.x",
