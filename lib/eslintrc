@@ -14,6 +14,7 @@
       "expect": true
   },
   "env": {
+    "jest": true,
     "node": true,
     "mocha": true
   }
