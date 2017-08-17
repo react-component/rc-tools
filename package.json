@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "6.5.1",
+  "version": "6.5.2",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -91,6 +91,7 @@
     "preact": "^8.2.1",
     "preact-compat": "^3.17.0",
     "progress-bar-webpack-plugin": "^1.9.3",
+    "react-devtools": "^2.5.0",
     "recursive-readdir": "^2.2.1",
     "request": "^2.81.0",
     "shelljs": "0.3.x",

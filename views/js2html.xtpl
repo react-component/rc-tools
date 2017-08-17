@@ -12,6 +12,9 @@
     <script src="/{{public}}/modernizr.js"></script>
     <script src="/{{public}}/qrcode.js"></script>
     <script src="/{{fastclick}}/lib/fastclick.js"></script>
+    {{#if(remoteDebugger)}}
+      <script src="http://localhost:8097"></script>
+    {{/if}}
     <link rel="stylesheet" type="text/css" href="/{{highlightJs}}/styles/github.css">
     {{#if(hasCss)}}
     <link rel="stylesheet" type="text/css" href="./{{name}}.css">
