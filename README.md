@@ -31,6 +31,11 @@ $ rc-tools run gh-pages: push example to gh-pages
 $ rc-tools run start: start dev server
 ```
 
+## Support preact
+
+```
+$ DEMO_ENV=preact rc-tools run start: start dev server with preact and preact-devtools auto inject
+```
 
 package.json demo
 

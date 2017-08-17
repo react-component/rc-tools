@@ -55,5 +55,8 @@
   {{{content}}}
   <script>FastClick.attach(document.body);</script>
   <script src="./{{name}}.js"></script>
+  {{#if(preactDevTools)}}
+    <script src="./preactDevTools.js"></script>
+  {{/if}}
 </body>
 </html>
