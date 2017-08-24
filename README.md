@@ -32,7 +32,7 @@ $ rc-tools run start: start dev server
 ```
 
 
-## package.json demo
+package.json demo
 
 ```js
 ({
