@@ -31,21 +31,6 @@ $ rc-tools run gh-pages: push example to gh-pages
 $ rc-tools run start: start dev server
 ```
 
-## preact
-
-
-```
-$ DEMO_ENV=preact rc-tools run start:   start dev server with preact and preact-devtools auto inject
-```
-
-## standalone react-devtools
-
-for simulator, safari, react-native debugger etc.
-
-
-```
-$ DEMO_ENV=debugger rc-tools run start:  start dev server with a standalone react-devtools connected to your page
-```
 
 ## package.json demo
 
