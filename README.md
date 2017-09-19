@@ -46,6 +46,10 @@ package.json demo
 
 ## History
 
+### 7.0.0
+
+- upgrade to webpack3
+
 ### 6.0.0
 
 - move test to rc-test
