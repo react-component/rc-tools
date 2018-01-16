@@ -14,9 +14,9 @@ module.exports = {
     }
 
     if (isJavaScript || isTypeScript) {
-      const fileName = isJavaScript ? path : 'file.js';
+      const fileName = path.replace(/\.[jt]sx?$/i, '.js');
 
-      src = babelJest.process(src, fileName);
+      src = babelJest.process(src, fileName, { moduleFileExtensions: ['js'] });
     }
 
     return src;
