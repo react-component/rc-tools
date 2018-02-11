@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "7.0.7",
+  "version": "7.0.8",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -98,7 +98,7 @@
     "svg-sprite-loader": "^3.2.5",
     "tar.gz": "^1.0.5",
     "through2": "^0.6.5",
-    "ts-loader": "^2.3.7",
+    "ts-loader": "3.x",
     "tslint": "4.x",
     "typescript": "2.x",
     "url-loader": "^0.5.9",
