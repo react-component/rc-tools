@@ -49,6 +49,7 @@
     "css-loader": "^0.26.1",
     "es5-shim": "4.x",
     "es6-promise": "~3.2.1",
+    "es6-shim": "^0.35.3",
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^5.0.1",
     "eslint-plugin-react": "^3.16.1",
