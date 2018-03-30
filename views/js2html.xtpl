@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>{{pkg.name}}-{{name}}</title>
-    <link href="/{{normalize}}/normalize.css" type="text/css" rel="stylesheet"/>
+    <link href="/{{normalize}}/normalize.css" type="text/css" rel="stylesheet" />
     <script src="/{{es6Shim}}/es6-shim.js"></script>
     <script src="/{{es6Shim}}/es6-sham.js"></script>
     <script src="/{{es5Shim}}/es5-shim.js"></script>
@@ -14,14 +15,12 @@
     <script src="/{{public}}/modernizr.js"></script>
     <script src="/{{public}}/qrcode.js"></script>
     <script src="/{{fastclick}}/lib/fastclick.js"></script>
-    <link rel="stylesheet" type="text/css" href="/{{highlightJs}}/styles/github.css">
-    {{#if(hasCss)}}
-    <link rel="stylesheet" type="text/css" href="./{{name}}.css">
-    {{/if}}
+    <link rel="stylesheet" type="text/css" href="/{{highlightJs}}/styles/github.css"> {{#if(hasCss)}}
+    <link rel="stylesheet" type="text/css" href="./{{name}}.css"> {{/if}}
     <script>
-    if(!window.Promise) {
-      document.writeln('<script src="/{{es6Promise}}/dist/es6-promise.js"'+'>'+'<'+'/'+'script>');
-    }
+        if (!window.Promise) {
+            document.writeln('<script src="/{{es6Promise}}/dist/es6-promise.js"' + '>' + '<' + '/' + 'script>');
+        }
     </script>
     <style>
         .highlight {
@@ -32,9 +31,9 @@
 
         .highlight pre {
             font-family: Consolas, "Liberation Mono", Courier, monospace;
-            margin: 6px 0;
+            margin: 0;
             border: 1px solid #eee;
-            padding: 6px 10px;
+            padding: 16px;
             overflow: auto;
             border-radius: 2px;
             background-color: #f8f8f9;
@@ -49,13 +48,121 @@
             margin: auto;
             padding: 0;
         }
+
+        html,
+        body {
+            height: 100vh;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            transition: all 0.3s;
+            background: #fff;
+            box-shadow: 0 2px 8px #f0f1f2;
+            position: relative;
+            width: 100%;
+            z-index: 10;
+            max-width: 100%;
+            position: absolute;
+            top: 0;
+            display: flex;
+        }
+
+        .navbar a {
+            box-sizing: border-box;
+            cursor: pointer;
+            display: block;
+            font-size: 16px;
+            font-weight: 500;
+            height: 64px;
+            line-height: 64px;
+            padding-left: 16px;
+            text-align: left;
+            flex: 1;
+        }
+
+        .navbar .qrcode {
+            height: 64px;
+            width: 64px;
+            float: left;
+        }
+
+        .main {
+            height: 100%;
+            box-sizing: border-box;
+            padding-top: 64px;
+            display: flex;
+        }
+
+        .main .demo {
+            flex: 1;
+        }
+
+        .main .highlight {
+            flex: 1.2;
+        }
+
+        .main pre {
+            height: 100%;
+        }
+
+        .modal {
+            position: absolute;
+            left: -100%;
+            top: 100px;
+            transition: 0.3s all;
+            z-index: 99;
+            padding: 50px;
+            box-shadow: 0 2px 8px #f0f1f2;
+            background-color: #fff;
+        }
+
+        .openQrcode {
+            width: 80px;
+        }
+
+        .openQrcode img {
+            width: 32px;
+            height: 32px;
+            margin: 16px;
+            cursor: pointer;
+        }
     </style>
 </head>
+
 <body>
-  <h1>{{pkg.name}}@{{pkg.version}}</h1>
-  <div id="__react-content"></div>
-  {{{content}}}
-  <script>FastClick.attach(document.body);</script>
-  <script src="./{{name}}.js"></script>
+    <div class="modal" id="modal">
+        <div id="qrcode" class="qrcode"></div>
+    </div>
+    <header class="navbar">
+        <a>{{pkg.name}}@{{pkg.version}}</a>
+        <div id="openQrcode" class="openQrcode">
+            <img src="/{{public}}/qrcode.svg" />
+        </div>
+    </header>
+    <section class="main">
+        <div id="__react-content" class="demo"></div>
+        {{{content}}}
+    </section>
+    <script>FastClick.attach(document.body);</script>
+    <script src="./{{name}}.js"></script>
+    <script>
+        document.getElementById('modal').style.left = "-100%";
+        document.getElementById('openQrcode').onclick = function () {
+            if (document.getElementById('modal').style.left !== "-100%") {
+                document.getElementById('modal').style.left = "-100%";
+                return;
+            }
+            var left = (innerWidth - 356) / 2 + "px";
+            document.getElementById('modal').style.left = left;
+        }
+        document.getElementById('modal').onclick = function () {
+            document.getElementById('modal').style.left = "-100%";
+        }
+    </script>
 </body>
+
 </html>
