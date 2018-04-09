@@ -25,14 +25,21 @@
   "scripts": {
     "postinstall": "node lib/init.js",
     "pub": "rm -rf yarn.lock && git push origin && npm publish",
-    "precommit": "npm run checkDep && npm run lint",
     "checkDep": "node scripts/checkDep",
-    "lint": "eslint --ext .js,.jsx lib"
+    "lint": "eslint --ext .js,.jsx lib",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "prettier --wirter",
+      "git add"
+    ],
+    "**/*.js": "eslint --ext .js"
   },
   "dependencies": {
     "autoprefixer": "^6.x",
     "babel-core": "^6.5.2",
-    "babel-eslint": "^4.1.8",
+    "babel-eslint": "^8.2.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-add-module-exports": "^0.1.2",
     "babel-plugin-transform-es3-member-expression-literals": "^6.22.0",
@@ -50,9 +57,12 @@
     "es5-shim": "4.x",
     "es6-promise": "~3.2.1",
     "es6-shim": "^0.35.3",
-    "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^5.0.1",
-    "eslint-plugin-react": "^3.16.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
     "extract-text-webpack-plugin": "^3.0.0",
     "fastclick": "~1.0.6",
     "file-loader": "^0.10.0",
@@ -60,11 +70,12 @@
     "fs-extra": "^0.16.5",
     "gh-pages": "^0.3.0",
     "glob": "~5.0.15",
-    "gulp": "^3.8.10",
+    "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-babel-minify": "^0.2.0",
     "gulp-jsx2example": "^1.2.4",
     "gulp-less": "3.x",
+    "gulp-plugin-prettier": "^1.1.0",
     "gulp-postcss": "^6.1.0",
     "gulp-typescript": "~3.0.2",
     "gulp-watch": "^4.3.10",
@@ -90,6 +101,7 @@
     "normalize.css": "^3.0.3",
     "object-assign": "4.x",
     "postcss-loader": "^1.2.2",
+    "prettier": "^1.11.1",
     "progress-bar-webpack-plugin": "^1.9.3",
     "recursive-readdir": "^2.2.1",
     "request": "^2.81.0",
@@ -108,9 +120,11 @@
     "xtpl": "^3.2.0"
   },
   "devDependencies": {
+    "lint-staged": "^7.0.2",
     "pre-commit": "1.x"
   },
   "pre-commit": [
-    "precommit"
+    "checkDep",
+    "lint-staged"
   ]
 }
