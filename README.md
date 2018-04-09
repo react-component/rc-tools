@@ -46,6 +46,11 @@ package.json demo
 
 ## History
 
+### 8.0.0
+
+- upgrade eslint to the latest version
+- introduce prettier
+
 ### 7.0.0
 
 - upgrade to webpack3
