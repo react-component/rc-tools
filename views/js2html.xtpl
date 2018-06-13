@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -49,6 +49,15 @@
             padding: 0;
         }
 
+        .highlight pre code .hljs-comment {
+            color: #5D6A6A;
+        }
+
+        .highlight pre code .hljs-number,
+        .highlight pre code .hljs-hexcolor {
+            color: #008030;
+        }
+
         html,
         body {
             height: 100vh;
@@ -94,7 +103,7 @@
             height: 100%;
             box-sizing: border-box;
             padding-top: 64px;
-            display: flex;
+            display: block;
             transition: .3s all;
         }
 
@@ -144,14 +153,14 @@
     </div>
     <header class="navbar">
         <div id="out" class="openQrcode">
-            <img src="/{{public}}/out.svg" />
+            <img alt="back" src="/{{public}}/out.svg" />
         </div>
         <a id="reload">{{pkg.name}}@{{pkg.version}}</a>
         <div id="openQrcode" class="openQrcode">
-            <img src="/{{public}}/qrcode.svg" />
+            <img alt="qrcode" src="/{{public}}/qrcode.svg" />
         </div>
         <div id="change" class="openQrcode">
-            <img src="/{{public}}/change.svg" />
+            <img alt="change view" src="/{{public}}/change.svg" />
         </div>
     </header>
     <section class="main" id="main">
@@ -183,7 +192,7 @@
         }
 
         document.getElementById('change').onclick = function () {
-            var display = document.getElementById("main").style.display;
+            var display = getComputedStyle(document.getElementById("main")).display;
             if (display !== "block") {
                 document.getElementById("main").style.display = "block";
                 return;
