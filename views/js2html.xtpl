@@ -199,6 +199,14 @@
             }
             document.getElementById("main").style.display = "flex";
         }
+        
+         document.getElementById("__react-content").ondblclick = function(){
+            if(this.style.padding === "0px"){
+                this.style.padding = "16px";
+            }else{
+                this.style.padding = 0 ;
+            }
+        }
     </script>
 </body>
 
