@@ -170,6 +170,12 @@
     <script>FastClick.attach(document.body);</script>
     <script src="./{{name}}.js"></script>
     <script>
+        if (localStorage && localStorage.getItem('layout') === "top") {
+            document.getElementById("main").style.display = "block";
+        }
+        if (localStorage && localStorage.getItem('layout') === "left") {
+            document.getElementById("main").style.display = "flex";
+        }
         document.getElementById('modal').style.left = "-100%";
         document.getElementById('openQrcode').onclick = function () {
             if (document.getElementById('modal').style.left !== "-100%") {
@@ -184,7 +190,7 @@
             location.reload();
         }
         document.getElementById('out').onclick = function () {
-           history.back();
+            history.back();
         }
 
         document.getElementById('modal').onclick = function () {
@@ -195,16 +201,22 @@
             var display = getComputedStyle(document.getElementById("main")).display;
             if (display !== "block") {
                 document.getElementById("main").style.display = "block";
+                if (localStorage) {
+                    localStorage.setItem('layout', 'top');
+                }
                 return;
+            }
+            if (localStorage) {
+                localStorage.setItem('layout', 'left');
             }
             document.getElementById("main").style.display = "flex";
         }
-        
-         document.getElementById("__react-content").ondblclick = function(){
-            if(this.style.padding === "0px"){
+
+        document.getElementById("__react-content").ondblclick = function () {
+            if (this.style.padding === "0px") {
                 this.style.padding = "16px";
-            }else{
-                this.style.padding = 0 ;
+            } else {
+                this.style.padding = 0;
             }
         }
     </script>
