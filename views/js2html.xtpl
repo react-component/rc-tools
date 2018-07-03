@@ -64,7 +64,7 @@
         }
 
         .highlight pre code .hljs-built_in {
-            color: #0079A3；
+            color: #0079A3;
         }
 
         html,
