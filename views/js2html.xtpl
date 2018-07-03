@@ -58,6 +58,11 @@
             color: #008030;
         }
 
+        .highlight pre code .hljs-attribute,
+        .highlight pre code .hljs-variable {
+          color: #007A7A;
+        }
+
         html,
         body {
             height: 100vh;
