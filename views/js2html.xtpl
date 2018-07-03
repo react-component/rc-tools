@@ -63,6 +63,10 @@
           color: #007A7A;
         }
 
+        .highlight pre code .hljs-built_in {
+            color: #0079A3；
+        }
+
         html,
         body {
             height: 100vh;
