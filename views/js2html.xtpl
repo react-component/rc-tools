@@ -165,6 +165,9 @@
             <img alt="back" src="/{{public}}/out.svg" />
         </div>
         <a id="reload">{{pkg.name}}@{{pkg.version}}</a>
+        <div id="changePadding" class="openQrcode">
+            <img alt="change-padding" src="/{{public}}/padding.svg" />
+        </div>
         <div id="openQrcode" class="openQrcode">
             <img alt="qrcode" src="/{{public}}/qrcode.svg" />
         </div>
@@ -195,6 +198,14 @@
             document.getElementById('modal').style.left = left;
         }
 
+        document.getElementById('changePadding').onclick = function () {
+            if (this.style.padding === "0px") {
+                this.style.padding = "16px";
+            } else {
+                this.style.padding = 0;
+            }
+        }
+
         document.getElementById('reload').onclick = function () {
             location.reload();
         }
@@ -219,14 +230,6 @@
                 localStorage.setItem('layout', 'left');
             }
             document.getElementById("main").style.display = "flex";
-        }
-
-        document.getElementById("__react-content").ondblclick = function () {
-            if (this.style.padding === "0px") {
-                this.style.padding = "16px";
-            } else {
-                this.style.padding = 0;
-            }
         }
     </script>
 </body>
