@@ -199,10 +199,12 @@
         }
 
         document.getElementById('changePadding').onclick = function () {
-            if (this.style.padding === "0px") {
-                this.style.padding = "16px";
+            var content = document.getElementById('__react-content');
+
+            if (content.style.padding === "0px") {
+                content.style.padding = "16px";
             } else {
-                this.style.padding = 0;
+                content.style.padding = 0;
             }
         }
 
