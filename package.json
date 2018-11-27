@@ -30,10 +30,6 @@
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
-    "**/*.js": [
-      "prettier --wirter",
-      "git add"
-    ],
     "**/*.js": "eslint --ext .js"
   },
   "dependencies": {
@@ -75,8 +71,8 @@
     "gulp-babel-minify": "^0.2.0",
     "gulp-jsx2example": "^1.2.4",
     "gulp-less": "3.x",
-    "gulp-plugin-prettier": "^1.1.0",
     "gulp-postcss": "^6.1.0",
+    "gulp-prettier": "^2.0.0",
     "gulp-typescript": "~3.0.2",
     "gulp-watch": "^4.3.10",
     "gzip-size": "^3.0.0",
