@@ -1,21 +1,11 @@
 {
-  "extends": "tslint:recommended",
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
   "rules": {
-    "quotemark": [
-      true,
-      "single",
-      "jsx-double"
-    ],
     "no-var-requires": false,
-    "arrow-parens": false,
-    "ordered-imports": false,
+    "no-submodule-imports": false,
     "object-literal-sort-keys": false,
-    "no-empty": false,
-    "member-access": false,
-    "object-literal-key-quotes": [true, "as-needed"],
-    "prefer-for-of": false,
-    "max-classes-per-file": false,
-    "only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],
-    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore","allow-pascal-case"]
+    "jsx-no-lambda": false,
+    "no-implicit-dependencies": false,
+    "no-console": false
   }
 }
