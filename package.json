@@ -109,6 +109,8 @@
     "through2": "^0.6.5",
     "ts-loader": "3.x",
     "tslint": "4.x",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-react": "^3.6.0",
     "typescript": "2.x",
     "url-loader": "^0.5.9",
     "webpack": "^3.6.0",
