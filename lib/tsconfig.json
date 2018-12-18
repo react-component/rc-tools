@@ -19,7 +19,7 @@
     "experimentalDecorators": true
   },
   "include": ["./src"],
-  "typings": "./src/allType.d.ts",
+  "typings": "./typings/index.d.ts",
   "exclude": [
     "node_modules",
     "build",
