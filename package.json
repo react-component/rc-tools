@@ -71,7 +71,7 @@
     "fs-extra": "^0.16.5",
     "gh-pages": "^0.3.0",
     "glob": "~5.0.15",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-babel-minify": "^0.5.0",
     "gulp-jsx2example": "^1.2.4",
@@ -124,6 +124,7 @@
     "xtpl": "^3.2.0"
   },
   "devDependencies": {
+    "gulp-debug": "^4.0.0",
     "lint-staged": "^7.0.2",
     "pre-commit": "1.x"
   },

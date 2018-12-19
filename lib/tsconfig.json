@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "declaration": true,
     "strict": true,
     "outDir": "build/dist",
     "module": "esnext",
@@ -9,12 +10,12 @@
     "jsx": "react",
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
-    "rootDirs": ["/src", "./typings"],
+    "rootDirs": ["./src", "./typings"],
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
-    "allowJs": true,
+    "allowJs": false,
     "noImplicitThis": false,
     "experimentalDecorators": true
   },
