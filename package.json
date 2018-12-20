@@ -79,7 +79,7 @@
     "highlight.js": "^8.9.1",
     "html5shiv": "3.x",
     "internal-ip": "^1.1.0",
-    "koa": "^1.1.2",
+    "koa": "^2.6.2",
     "koa-body": "^1.4.0",
     "koa-favicon": "^1.2.0",
     "koa-logger": "1.x",
