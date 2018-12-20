@@ -101,7 +101,7 @@
     "progress-bar-webpack-plugin": "^1.9.3",
     "recursive-readdir": "^2.2.1",
     "request": "^2.81.0",
-    "shelljs": "0.3.x",
+    "shelljs": "0.8.x",
     "strip-ansi": "^4.0.0",
     "style-loader": "^0.18.2",
     "svg-sprite-loader": "^3.2.5",
