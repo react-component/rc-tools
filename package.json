@@ -106,7 +106,7 @@
     "style-loader": "^0.18.2",
     "svg-sprite-loader": "^3.2.5",
     "tar.gz": "^1.0.5",
-    "through2": "^0.6.5",
+    "through2": "^3.0.0",
     "ts-loader": "3.x",
     "tslint": "4.x",
     "tslint-config-prettier": "^1.17.0",
