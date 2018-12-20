@@ -1,5 +1,6 @@
 const typescript = require('typescript');
-const { createTransformer } = require('babel-jest');
+// const { createTransformer } = require('babel-jest');
+const { createTransformer } = require('ts-jest');
 const getBabelCommonConfig = require('../lib/getBabelCommonConfig');
 const getTSCommonConfig = require('../lib/getTSCommonConfig');
 const babelJest = createTransformer(getBabelCommonConfig());
@@ -14,9 +15,8 @@ module.exports = {
     }
 
     if (isJavaScript || isTypeScript) {
-      const fileName = path.replace(/\.[jt]sx?$/i, '.js');
-
-      src = babelJest.process(src, fileName, { moduleFileExtensions: ['js'] });
+      // src = babelJest.process(src, path, { moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx'] });
+      src = babelJest.process(src, path, { moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx'] });
     }
 
     return src;
