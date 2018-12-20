@@ -19,6 +19,7 @@ offline tools for react component
 [node-url]: http://nodejs.org/download/
 [download-image]: https://img.shields.io/npm/dm/rc-tools.svg?style=flat-square
 [download-url]: https://npmjs.org/package/rc-tools
+[david-dm]: https://david-dm.org/react-component/rc-tools.svg
 
 ## Usage
 
