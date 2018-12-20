@@ -6,6 +6,7 @@ offline tools for react component
 [![gemnasium deps][gemnasium-image]][gemnasium-url]
 [![node version][node-image]][node-url]
 [![npm download][download-image]][download-url]
+[![david-dm][david-image]][david-url]
 
 [npm-image]: http://img.shields.io/npm/v/rc-tools.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/rc-tools
@@ -19,7 +20,8 @@ offline tools for react component
 [node-url]: http://nodejs.org/download/
 [download-image]: https://img.shields.io/npm/dm/rc-tools.svg?style=flat-square
 [download-url]: https://npmjs.org/package/rc-tools
-[david-dm]: https://david-dm.org/react-component/rc-tools.svg
+[david-image]: https://david-dm.org/react-component/rc-tools.svg
+[david-url]: https://david-dm.org/react-component/rc-tools
 
 ## Usage
 
