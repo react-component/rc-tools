@@ -49,6 +49,11 @@ package.json demo
 
 ## History
 
+### 9.0.0
+
+- upgrade all deps
+- add `test` task
+
 ### 8.0.0
 
 - upgrade eslint to the latest version
