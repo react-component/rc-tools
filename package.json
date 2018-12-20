@@ -64,7 +64,7 @@
     "file-loader": "^0.10.0",
     "filesize": "^3.5.10",
     "fs-extra": "^0.16.5",
-    "gh-pages": "^0.3.0",
+    "gh-pages": "^2.0.1",
     "glob": "~5.0.15",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
