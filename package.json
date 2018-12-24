@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "9.1.1",
+  "version": "9.1.2",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -59,6 +59,8 @@
     "commander": "2.19.x",
     "console-polyfill": "~0.3.0",
     "css-loader": "^2.0.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
     "enzyme-to-json": "^3.3.5",
     "es5-shim": "4.x",
     "es6-promise": "~4.2.5",
@@ -130,8 +132,6 @@
     "xtpl": "^3.4.0"
   },
   "devDependencies": {
-    "enzyme": "^3.8.0",
-    "enzyme-adapter-react-16": "^1.7.1",
     "gulp-debug": "^4.0.0",
     "lint-staged": "^8.1.0",
     "pre-commit": "1.x",
