@@ -1,4 +1,5 @@
 const path = require('path');
+const chalk = require('chalk');
 const { createTransformer: babelTransFormer } = require('babel-jest');
 const { createTransformer: tsTransFormer } = require('ts-jest');
 const getBabelCommonConfig = require('../lib/getBabelCommonConfig');
@@ -18,6 +19,10 @@ module.exports = {
     } else if (isJavaScript) {
       src = babelJest.process(src, filePath, { moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx'] });
     } else {
+      console.log(
+        chalk.red('File not match type:'),
+        filePath
+      );
       throw new Error(`File not match type: ${filePath}`);
     }
 
