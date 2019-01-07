@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "9.0.2-alpha.2",
+  "version": "9.0.2-alpha.9",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -125,11 +125,14 @@
     "postcss-loader": "^3.0.0",
     "prettier": "^1.15.3",
     "progress-bar-webpack-plugin": "^1.11.0",
+    "rc-source-loader": "^1.0.2",
     "react-docgen-typescript-loader": "^3.0.0",
     "recursive-readdir": "^2.2.2",
     "request": "^2.88.0",
     "shelljs": "0.8.x",
     "storybook-addon-smart-knobs": "^4.1.0",
+    "storybook-addon-source": "latest",
+    "@storybook/addon-options": "^4.1.4",
     "strip-ansi": "^5.0.0",
     "style-loader": "^0.23.1",
     "svg-sprite-loader": "^4.1.3",
