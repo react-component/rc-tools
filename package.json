@@ -128,6 +128,7 @@
     "progress-bar-webpack-plugin": "^1.11.0",
     "rc-source-loader": "^1.0.2",
     "react-docgen-typescript-loader": "^3.0.0",
+    "react-markdown": "^4.0.6",
     "recursive-readdir": "^2.2.2",
     "request": "^2.88.0",
     "shelljs": "0.8.x",
