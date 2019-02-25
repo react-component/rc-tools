@@ -8,7 +8,8 @@
     "noUnusedLocals": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "resolveJsonModule": true
   },
   "typeRoots": ["../node_modules/@types", "./@types"],
   "exclude": ["node_modules", "lib"]
