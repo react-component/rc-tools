@@ -103,7 +103,7 @@
     "gzip-size": "^5.0.0",
     "highlight.js": "^9.13.1",
     "html5shiv": "3.x",
-    "internal-ip": "^3.0.1",
+    "internal-ip": "^4.2.0",
     "jest": "^23.6.0",
     "koa": "^2.6.2",
     "koa-body": "^4.0.4",
