@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "9.4.0-beta",
+  "version": "9.4.0",
   "description": "offline tools for react component",
   "keywords": [
     "react",
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "postinstall": "node lib/init.js",
-    "pub": "rm -rf yarn.lock && git push origin && npm publish --tag=beta",
+    "pub": "rm -rf yarn.lock && git push origin && npm publish",
     "checkDep": "node scripts/checkDep",
     "lint": "eslint --ext .js,.jsx lib",
     "lint-staged": "lint-staged"
