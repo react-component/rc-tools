@@ -59,8 +59,6 @@
     "@storybook/addon-info": "^5.0.0",
     "@storybook/addon-knobs": "^5.0.0",
     "@storybook/addon-links": "^5.0.0",
-    "@storybook/addon-notes": "^5.0.0",
-    "@storybook/addon-options": "^5.0.0",
     "@storybook/addon-viewport": "^5.0.0",
     "@storybook/addons": "^5.0.0",
     "@storybook/cli": "^5.0.0",
