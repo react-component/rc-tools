@@ -1,6 +1,6 @@
 {
   "name": "rc-tools",
-  "version": "9.6.0-beta.0",
+  "version": "9.6.0",
   "description": "offline tools for react component",
   "keywords": [
     "react",
