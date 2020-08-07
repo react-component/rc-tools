@@ -63,7 +63,7 @@
     "@storybook/addons": "~5.0.0",
     "@storybook/cli": "~5.0.0",
     "@storybook/react": "~5.0.0",
-    "@types/jest": "^23.3.10",
+    "@types/jest": "^26.0.9",
     "@types/storybook__react": "~4.0.0",
     "autoprefixer": "^9.x",
     "babel-core": "~7.0.0-bridge.0",
